@@ -1,0 +1,74 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background-color: #1c3345;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    
+}
+
+main h2 {
+    margin: 0.5rem 0;
+}
+
+form {
+    
+    align-items: center;
+    
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 8px;
+  
+}
+
+
+p {
+    text-align: center; 
+    margin: 1rem 0; 
+}
+
+#location, #forecast, #latitude, #longitude, #error {
+    
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    color: #333; 
+    padding: 0.5rem; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+    width: 50%; 
+    margin: 1rem auto; 
+    
+}
+
+
+footer {
+    background-color: #1c3345;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
